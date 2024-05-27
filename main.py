@@ -77,7 +77,7 @@ entry_HOST.grid(row=0, column=5, padx=5, pady=10, sticky='w')
 button = tk.Button(root, text="Generează Tabela", command=calculIP)
 button.grid(row=1, column=0, columnspan=2, pady=10)
 
-button = tk.Button(root, text="Sub Tab", command=calculTabela)
+button = tk.Button(root, text="Add LAN/WAN", command=calculTabela)
 button.grid(row=1, column=2, columnspan=2, pady=10)
 
 text_output = tk.Text(root, height=10, width=32)
